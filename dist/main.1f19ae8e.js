@@ -124,7 +124,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var string = ".skin .eyes .eyeLeft,.eyeRight{\n    width: 200px;\n    height: 200px;\n    border: 5px solid black;\n    border-radius: 50%;\n    position: absolute;\n    top:50%;\n    margin-top: -130px;\n    z-index: 10;\n    background-color: white;\n}\n.skin .eyes .eyeLeft{\n    left:50%;\n    margin-left: -190px;\n}\n.skin .eyes .eyeRight{\n    right: 50%;\n    margin-right: -190px;\n\n}\n.skin .eyes .eyesBallLeft,.eyesBallRight{\n    width: 60px;\n    height: 60px;\n    border: 1px black solid;\n    position: absolute;\n    top:50%;\n    margin-top: -30px;\n    border-radius: 50%;\n    background-color:#0093DC;\n}\n.skin .eyes .black{\n    width: 30px;\n    height: 30px;\n    border: 1px black solid;\n    position: absolute;\n    left: 50%;\n    top:50%;\n    margin-top: -15px;\n    margin-left: -15px;\n    background-color: black;\n    border-radius: 50%;\n}\n.skin .nose{\n    width: 50px;\n    height: 130px;\n    border: 5px black solid;\n    left:50%;\n    top:50%;\n    margin-left: -25px;\n    margin-top: -65px;\n    border-bottom: none;\n}\n.skin .nose .box{\n    background: #FFF400;\n}\n.eyes .brow1,.brow2,.brow3{\n    width: 10px;\n    background-color: black;\n}\n.eyes .brow1{\n    transform: rotate(-5deg);\n    height: 35px;\n   \n}\n.eyes .brow2{ \n    transform: rotate(5deg);\n    height: 45px;\n}\n.eyes .brow3{ \n    transform: rotate(5deg);\n    height: 40px;\n}\n\n.skin .eyes .eyeBrowLeft{\n    margin-left: -220px;\n}\n.skin .eyes .eyeBrowRight{\n    margin-left: -40px;\n    \n}\n.skin .cheek .circleL{\n    width: 75px;\n    height: 48px;\n    border-radius:50%;\n    position: absolute;\n    top:50%;\n    margin-top: -22px;\n    margin-left: -3px;\n    background-color: #FFF400;\n}\n.skin .cheek .cheekLeft,.cheekRight{\n    width: 80px;\n    height: 50px;\n    border: 5px solid#D9241C;\n    position: absolute;\n    top:50%;\n    margin-top: -25px;\n    border-radius:50%;\n}\n.skin .cheek .cheekLeft{\n    \n    left: 50%;\n    margin-left: -220px;\n    transform: rotate(-20deg);\n}\n.skin .cheek .cheekRight{ \n    right: 50%;\n    margin-right: -220px;\n    transform: rotate(20deg);\n}\n.circleL .point1,.point2,.point3{\n    width: 6px;\n    height: 6px;\n    border-radius:50%;\n    background-color: #D9241C;\n    position: absolute;\n    top:50%;\n    left: 50%;\n\n}\n.skin .mouth .circleLeft,.circleRight{\n    width: 50px;\n    height: 50px;\n    border-radius:50%;\n    border: 1px solid transparent;\n    border-top: 5px solid black;\n    z-index: 15;\n  \n}\n.skin .mouth .circleCenter{\n    width: 500px;\n    height: 500px;\n    border:4px solid  black;\n    position: absolute;\n    left: 50%;\n    top:50%;\n    margin-top: -480px;\n    margin-left: -250px;\n    border-radius: 50%;\n    z-index: 20;\n    \n}\n.skin .mouth .teethLeft,.teethRight{\n    width: 30px;\n    height: 40px;\n    border: 4px solid black;\n    position: absolute;\n    top:50%;\n    margin-top:18px;\n    z-index: 10;\n    background-color: white;\n    \n}\n.skin .circle .circleLeft2,.circleRight2{\n    width: 80px;\n    height: 80px;\n    border-radius: 50%;\n    position: absolute;\n    border: 1px solid transparent;\n    border-bottom: 8px solid #D9241C;\n}\n.skin .hole1,.hole2,.hole3,.hole4,.hole5,.hole6,.hole7{\n    position: absolute;\n    left: 50%;\n    top:50%;\n    border-radius: 50%;\n    background-color: #D1C900;\n\n}\n";
+var string = "\n    /*******\u5927\u5BB6\u597D*******/\n    /*******\u4ECA\u5929\u6211\u8981\u7ED9\u5927\u5BB6\u753B\u4E00\u4E2A\u6D77\u7EF5\u5B9D\u5B9D*******/\n    /*******\u8FD9\u662F\u4ED6\u5927\u5927\u7684\u773C\u775B*******/\n    .skin .eyes .eyeLeft,.eyeRight{\n    border: 5px solid black;\n    border-radius: 50%;\n    background-color: white;\n}\n    /*******\u8FD9\u662F\u4ED6\u7684\u84DD\u84DD\u7684\u773C\u7403*******/\n\n    .skin .eyes .eyesBallLeft,.eyesBallRight{\n    border-radius: 50%;\n    border: 1px black solid;\n    background-color:#0093DC;\n    }\n    /*******\u8FD9\u662F\u4ED6\u9ED1\u9ED1\u7684\u773C\u73E0*******/\n    .skin .eyes .black{\n    border: 1px black solid;\n    background-color: black;\n    border-radius: 50%;\n    }\n    /*******\u8FD9\u662F\u4ED6\u9AD8\u9AD8\u7684\u9F3B\u5B50*******/\n    .skin .nose{\n        border-radius: 50px/100px;\n        background: #FFF400;\n        border: 5px black solid;\n        border-bottom: none;\n        }\n        /*******\u8FD9\u662F\u4ED6\u957F\u957F\u7684\u776B\u6BDB*******/\n        .eyes .brow1,.brow2,.brow3{\n        width: 10px;\n        background-color: black;\n}\n/*******\u8FD9\u662F\u4ED6\u7EA2\u7EA2\u7684\u7684\u8138\u988A*******/\n.skin .cheek .circleL{\n    border-radius:50%;\n    background-color: #FFF400;\n}\n.skin .cheek .cheekLeft,.cheekRight{\n    \n    border: 5px solid#D9241C;\n    border-radius:50%;\n}\n.circleL .point1,.point2,.point3{\n    border-radius:50%;\n    background-color: #D9241C;\n}\n/*******\u8FD9\u662F\u4ED6\u5927\u5927\u7684\u5634\u5DF4*******/\n.skin .mouth .circleCenter{\n    border:4px solid  black;\n    border-radius: 50%;\n    \n}\n.skin .mouth .circleLeft,.circleRight{\n    border-radius:50%;\n    border: 1px solid transparent;\n    border-top: 5px solid black;\n}\n/*******\u8FD9\u662F\u4ED6\u767D\u767D\u7684\u7259\u9F7F*******/\n.skin .mouth .teethLeft,.teethRight{\n    border: 4px solid black;\n    background-color: white;\n    \n}\n/*******\u8FD9\u662F\u4ED6\u5C16\u5C16\u7684\u4E0B\u5DF4*******/\n.skin .circle .circleLeft2,.circleRight2{\n    border: 1px solid transparent;\n    border-bottom: 8px solid #D9241C;\n    border-radius: 50%;\n}\n/*******\u8FD9\u662F\u4ED6\u7070\u7070\u7684\u5706\u6591*******/\n.skin .hole1,.hole2,.hole3,.hole4,.hole5,.hole6,.hole7{\n    background-color: #D1C900;\n    border-radius: 50%;\n}\n/*******\u597D\u5566\uFF01\u6211\u7684\u6D77\u7EF5\u5B9D\u5B9D\u753B\u5B8C\u5566~\u4F60\u8FD8\u559C\u6B22\u5417\uFF1F*******/\n";
 var _default = string;
 exports.default = _default;
 },{}],"main.js":[function(require,module,exports) {
@@ -134,26 +134,69 @@ var _css = _interopRequireDefault(require("./css.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import text from 'text.js'//
-console.log(_css.default);
-var demo1 = document.querySelector("#demo1");
-var demo2 = document.querySelector("#demo2");
 var n = 0;
-var btnPause = document.querySelector("#btnPause");
-var btnPlay = document.querySelector("#btnPlay");
-var btnFast = document.querySelector("#btnFast");
-var btnNormal = document.querySelector("#btnNormal");
-var btnSlow = document.querySelector("#btnSlow");
+var player = {
+  id: undefined,
+  time: 50,
+  n: 1,
+  ui: {
+    demo1: document.querySelector("#demo1"),
+    demo2: document.querySelector("#demo2")
+  },
+  init: function init() {
+    player.ui.demo1.innerText = _css.default.substr(0, player.n);
+    player.ui.demo2.innerHTML = _css.default.substr(0, player.n);
+    player.play();
+    player.btnBind();
+  },
+  events: {
+    "#btnPause": 'pause',
+    "#btnPlay": 'play',
+    "#btnFast": "fast",
+    "#btnNormal": "normal",
+    "#btnSlow": "slow"
+  },
+  btnBind: function btnBind() {
+    for (var key in player.events) {
+      if (player.events.hasOwnProperty(key)) {
+        var value = player.events[key];
+        document.querySelector.onclick = player[value];
+      }
+    }
+  },
+  run: function run() {
+    demo1.innerText = _css.default.substr(0, player.n);
+    demo2.innerHTML = _css.default.substr(0, player.n);
+    player.n += 1;
+    demo1.scrollTop = demo1.scrollHeight;
 
-var run = function run() {
-  demo1.innerText = _css.default.substr(0, n);
-  demo2.innerHTML = _css.default.substr(0, n);
-  n = n + 1;
-  demo1.scrollTop = demo1.scrollHeight;
-  if (n === _css.default.length) clearInterval(id);
+    if (player.n === _css.default.length) {
+      clearInterval(id);
+    }
+  },
+  play: function play() {
+    id = setInterval(player.run, player.time);
+  },
+  pause: function pause() {
+    clearInterval(id);
+  },
+  fast: function fast() {
+    player.pause();
+    player.time = 5;
+    player.play();
+  },
+  normal: function normal() {
+    player.pause();
+    player.time = 50;
+    player.play();
+  },
+  slow: function slow() {
+    player.pause();
+    player.time = 200;
+    player.play();
+  }
 };
-
-var id = setInterval(run, 10);
+var id = setInterval(player.run, 50);
 
 btnPause.onclick = function () {
   clearInterval(id);
@@ -161,22 +204,22 @@ btnPause.onclick = function () {
 
 btnPlay.onclick = function () {
   clearInterval(id);
-  id = setInterval(run, 10);
+  id = setInterval(player.run, 50);
 };
 
 btnFast.onclick = function () {
   clearInterval(id);
-  id = setInterval(run, 0);
+  id = setInterval(player.run, 10);
 };
 
 btnNormal.onclick = function () {
   clearInterval(id);
-  id = setInterval(run, 50);
+  id = setInterval(player.run, 50);
 };
 
 btnSlow.onclick = function () {
   clearInterval(id);
-  id = setInterval(run, 200);
+  id = setInterval(player.run, 200);
 };
 },{"./css.js":"css.js"}],"C:/Users/Administrator/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -206,7 +249,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51462" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50132" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
